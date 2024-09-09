@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+thead tr {
+    background: #23282c;
+    color: #fff;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(150, 235, 200);
+    min-height: 150px;
+    background-image: url(Logo\ De\ Clínica\ De\ Veterinária\ Pet\ Shop\ Verde.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    display:flex;
+    
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: rgba(3, 3, 3, 0.435);
+    min-height: 100px;
+    text-align: center;
+}
+.table {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
